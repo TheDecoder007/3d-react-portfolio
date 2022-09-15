@@ -1,0 +1,71 @@
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.active-tab, .nav-link.active {
+    color: white;
+    /* border-bottom: 2px solid whitesmoke; */
+    opacity: 100%;
+}
+
+.not-active {
+    color: whitesmoke;
+    opacity: 80%;
+}
+
+.not-active:hover {
+    color: whitesmoke;
+    text-shadow: 0 0 5px white;
+    opacity: 100%;
+}
+
+.active-tab:hover {
+    color:whitesmoke;
+}
+
+.navBtn {
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 7px whitesmoke;
+    padding: 5px;
+    margin: 15px;
+    background-color: var(--primary);
+}
+
+.navBtn:hover {
+    background-color: whitesmoke;
+    border: 1px solid var(--secondary);
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+
+.NavContainer {
+    color: whitesmoke;
+    /* background-color: var(--secondary); */
+    font-size: x-large;
+}
+
+.NavBrand {
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.NavBrand:hover {
+    color: whitesmoke;
+}
+
+.navbar-collapse {
+    margin-bottom: -160px;
+    z-index: 1;
+}
+.navbar-collapse.collapse.show {
+    margin-bottom: -160px;
+    z-index: 1;
+}
+.navBar {
+    margin-bottom: -87px;
+    z-index: 1;
+}
+.collapse{
+    margin: 0;
+}

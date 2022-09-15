@@ -1,0 +1,217 @@
+:root {
+    --primary: rgb(41, 61, 80);
+    --secondary: rgb(16, 39, 61);
+    --tertiary: rgb(155, 0, 0);
+}
+
+
+.mainContainer {
+    background-color: var(--secondary);
+    color: whitesmoke;
+    height: 100%;
+    padding: 0px;
+}
+
+.AboutCard{
+    text-align: -webkit-center; 
+    align-self: center;
+}
+
+.AboutCrd {
+    box-shadow: 0 0 15px whitesmoke;
+   margin: 20px;
+   width: 25rem;
+   border-radius: 10px;
+   border: 2px solid var(--secondary);
+}
+
+.AboutMe {
+    align-self: center;
+    color: whitesmoke;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.projectCont {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.CardRow {
+    text-align: -webkit-center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.CardCol {
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.wholeCard {
+    box-shadow: 0 0 15px whitesmoke;
+    background-color: var(--primary);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid var(--secondary);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+ }
+ 
+.btnDiv {
+    padding-top: 0;
+    border: none;
+}
+
+
+.cardHeader {
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border: none;
+    font-weight: bold;
+    height: 50px;
+}
+
+.headerVid {
+    object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+ .cardTitle { 
+    position: relative;
+    font-size: xx-large;
+    text-shadow: 0 0 3px black;
+    color: white;
+ }
+
+.sectionHead {
+    font-size: xxx-large;
+    padding-bottom: 15px;
+    text-shadow: 0 0 2px white;
+    border-bottom: 2px solid whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.contactEmail {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.contactEmail:hover {
+    text-shadow: 0 0 3px white;
+}
+.AllBtn {
+    padding: 8px;
+    margin: 15px;
+    background-color: var(--secondary);
+    border: 1px solid var(--primary);
+    color: whitesmoke;
+    box-shadow: 0 0 5px whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.AllBtn:hover {
+    background-color: var(--secondary);
+    color: white;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 8px white;
+    /* font-weight: bold; */ 
+}
+
+.submitBtn {
+    margin: 15px;
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+    color: whitesmoke;
+}
+
+.submitBtn:hover {
+    background-color: var(--secondary);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 8px whitesmoke;
+}
+
+.formText {
+    background-color: var(--primary);
+    color: whitesmoke;
+}
+.formBack {
+    background-color: whitesmoke;
+    color: var(--secondary);
+}
+
+
+@media screen and (max-width: 992px) {
+    .aboutCont {
+       max-width: 541px;
+    }
+    .footerLink {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .aboutCont{
+        max-width: 444px;
+    }
+    .AboutCrd {
+       width:auto;
+    }
+    .AboutCard {
+        min-width: -webkit-fill-available;
+    }
+    .CardCol{
+        min-width:fit-content;
+    }
+    .wholeCard {
+        width: auto;
+        height: auto;
+        min-width: -webkit-fill-available;
+        min-height: -webkit-fill-available;
+        display: table-cell;
+    }
+ .footerLink {
+    margin-top: 10px;
+
+    }
+    .footLink{
+        padding-left: 20px;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 412px) {
+
+    .nav-link {
+        font-size: small;
+    }
+    .NavBrand {
+        font-size: x-small;
+    }
+
+}
