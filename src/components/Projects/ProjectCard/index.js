@@ -2,7 +2,6 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
-
 import Video2 from "../../../assets/videos/LightningHeader.mp4";
 
 // import {

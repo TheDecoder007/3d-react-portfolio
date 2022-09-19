@@ -1,5 +1,5 @@
-import React from "react";
-import { useLoader } from "react-three-fiber";
+import React from 'react';
+import { useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three/src/loaders/TextureLoader";
 import texture from "../../assets/photos/MurpheusFace.jpeg"
 

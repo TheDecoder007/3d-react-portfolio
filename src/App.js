@@ -1,8 +1,10 @@
 import './App.css';
-import React, { useState, Suspense} from 'react';
-import { Canvas } from "react-three-fiber"
-import { OrbitControls, GLTFLoader } from 'drei';
+import React, { useState, Suspense } from 'react';
+import { Canvas } from "@react-three/fiber"
 import * as THREE from 'three';
+import { TextureLoader } from "three/src/loaders/TextureLoader";
+import { OrbitControls, GLTFLoader } from '@react-three/drei';
+// import { useLoader } from "react-three-fiber";
 // import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
@@ -16,6 +18,7 @@ import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import PageFooter from "./components/Footer";
 import Box from './components/Box';
+import Background from './components/Background';
 
 function App() {
   const [activeTab, setActiveTab] = useState("Projects");
@@ -25,26 +28,44 @@ function App() {
     if (activeTab === "Projects") return <Projects />;
     if (activeTab === "Contact") return <Contact />;
   };
-
-
   const changeActiveTab = (tab) => setActiveTab(tab);
 
-  return (
-      <Container fluid className="mainContainer">
-    
-    <Canvas>
 
-<mesh>
+  //BEGINNING OF THREES CODE
+// const scene = new THREE.Scene();
+
+// const renderer = new THREE.WebGL1Renderer({
+//   canvas: document.querySelector('#bg'),
+// });
+// renderer.setPixelRatio( window.devicePixelRatio );
+// renderer.setSize( window.innerWidth, window.innerHeight );
+
+// const spaceTexture = new TextureLoader().load('./assets/photos/CloudsGoodDark.jpg');
+// scene.background = spaceTexture;
+
+
+return (
+  <Container fluid className="mainContainer">
+    <Canvas className="mainCanvas">
+<OrbitControls enableZoom={false} />
+<ambientLight intensity={0.5} />
+<directionalLight position={[-2, 5, 2]} />
+<Suspense fallback={null}>
+ <mesh>
   <Box />
-</mesh>
+ </mesh>
+</Suspense>
 
     </Canvas>
-
-      <TopNav activeTab={activeTab} changeActiveTab={changeActiveTab} />
+    <TopNav activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
       {currentPage()}
       <PageFooter/>
+
+
     </Container>
+
+
 
 
 
