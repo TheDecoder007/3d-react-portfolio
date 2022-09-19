@@ -6,11 +6,13 @@
 
 
 .mainContainer {
-    background-color: var(--secondary);
+    background-color: rgb(5, 3, 14);
+    /* background-color: var(--secondary); */
     color: whitesmoke;
     height: 100%;
     padding: 0px;
 }
+
 
 .AboutCard{
     text-align: -webkit-center; 
