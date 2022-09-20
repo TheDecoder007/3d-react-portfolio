@@ -4,8 +4,8 @@ import { TextureLoader } from "three";
 import { OrbitControls, Stars } from "@react-three/drei";
 import * as THREE from "three";
 
-import CloudsDark from "../../assets/photos/CloudsGoodDark.jpg";
-import CloudsGood from "../../assets/photos/CloudsGood2.jpg";
+import CloudsDark from "../../assets/photos/CloudsGoodDark3flip2.jpg";
+import CloudsGood from "../../assets/photos/CloudsGoodDark3flip.jpg";
 
 export function Earth(props) {
   const [colorMap, cloudsMap] = useLoader(TextureLoader, [
@@ -34,18 +34,18 @@ export function Earth(props) {
         saturation={0}
         fade={true}
       />
-      <mesh ref={cloudsRef} scale={[2, 2, 2]}>
+      <mesh ref={earthRef} scale={[2, 2, 2]}>
         <sphereGeometry args={[1.005, 32, 32]} />
         <meshPhongMaterial
           map={cloudsMap}
-          opacity={0.2}
+          opacity={0.4}
           roughness={0.5}
           depthWrite={false}
           transparent={true}
           side={THREE.DoubleSide}
         />
       </mesh>
-      <mesh ref={earthRef} scale={[2, 2, 2]}>
+      <mesh ref={cloudsRef} scale={[2, 2, 2]}>
         <sphereGeometry args={[1, 32, 32]} />
         <meshStandardMaterial map={colorMap} metalness={0.7} roughness={0.5} />
         {/* <OrbitControls
