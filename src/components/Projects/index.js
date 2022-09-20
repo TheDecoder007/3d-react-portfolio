@@ -3,12 +3,14 @@ import ProjectCard from "./ProjectCard";
 import {projects} from "./data";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import {ScrollControls, Scroll} from "@react-three/drei";
 
 
 function Projects() {
 
 
   return (
+
     <Container fluid className="projectCont" id="projects">
       <Row>
         <h3 className="text-center sectionHead">My Projects</h3>

@@ -4,10 +4,10 @@ import { TextureLoader } from "three";
 import { OrbitControls, Stars } from "@react-three/drei";
 import * as THREE from "three";
 
-import CloudsDark from "../../assets/photos/CloudsGoodDark3flip2.jpg";
-import CloudsGood from "../../assets/photos/CloudsGoodDark3flip.jpg";
+import CloudsDark from "../../assets/photos/CloudsGood.jpg";
+import CloudsGood from "../../assets/photos/MurpheusFace.jpeg";
 
-export function Earth(props) {
+export function Earth2(props) {
   const [colorMap, cloudsMap] = useLoader(TextureLoader, [
     CloudsGood,
     CloudsDark,
@@ -24,8 +24,8 @@ export function Earth(props) {
 
   return (
     <>
-      <ambientLight intensity={2} />
-      <pointLight color="#f6f3ea" position={[4, 0, 5]} intensity={1.5} />
+      <ambientLight intensity={0.9} />
+      <pointLight color="#f6f3ea" position={[2, 0, 5]} intensity={1.5} />
       <Stars
         radius={300}
         depth={60}
@@ -45,7 +45,7 @@ export function Earth(props) {
           side={THREE.DoubleSide}
         />
       </mesh>
-      <mesh ref={cloudsRef} scale={[2, 2, 2]}>
+      <mesh ref={cloudsRef} scale={[2, 2, 2]} position={[0,-10, -3]}>
         <sphereGeometry args={[1, 32, 32]} />
         <meshStandardMaterial map={colorMap} metalness={0.7} roughness={0.5} />
         {/* <OrbitControls enableScroll={true} /> */}

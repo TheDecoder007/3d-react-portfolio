@@ -11,6 +11,7 @@
     color: whitesmoke;
     height: 100%;
     padding: 0px;
+    position: relative;
 }
 
 
@@ -37,6 +38,8 @@
 .projectCont {
     padding-left: 5px;
     padding-right: 5px;
+    position: absolute;
+    z-index: 999;
 }
 
 .CardRow {
