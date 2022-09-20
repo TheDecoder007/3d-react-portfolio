@@ -15,6 +15,7 @@ export function Lander() {
         <Col>
           <h1 className="landerTitle"> The Decoder </h1>
         </Col>
+        </Row>
         <Row>
           <Col>
             <h2 className="landerSub"> Welcome to my portfolio </h2>
@@ -44,7 +45,6 @@ export function Lander() {
             </Button>
           </Col>
         </Row>
-      </Row>
     </Container>
   );
 }
