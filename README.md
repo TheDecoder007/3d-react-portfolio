@@ -22,4 +22,4 @@ Deploy link: https://thedecoder007.github.io/3d-react-portfolio/
 * Will be updated to full MERN stack 
 
 ## Screenshot
-
+![Screenshot (983)](https://user-images.githubusercontent.com/101135574/191278311-6435a8e6-b13c-4ece-9004-a3f1756784bc.png)
