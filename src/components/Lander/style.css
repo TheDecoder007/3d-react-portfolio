@@ -10,8 +10,8 @@
     height: 100%;
     top: 0;
     left: 0;
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -67,5 +67,57 @@
     .btn-primary:hover {
         border: 1px solid white;
         box-shadow: 0 0 10px white;
+    }
+
+    @media screen and (max-width: 540px) {
+
+        .landerContainer {
+            justify-content: normal;
+        }
+        .landerTitle {
+            padding: 3%;
+            font-size: 60px;
+        }
+        .landerSub {
+            padding-top: 2%;
+            font-size: 30px;
+        }
+
+        .landerText {
+            padding: 1rem;
+            font-size: 20px;
+            
+        }
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .LandBtn {
+            margin-top: 2px;
+        }
 
     }
+
+    @media screen and (max-width: 290px) {
+
+        .landerTitle {
+            font-size: 40px;
+        }
+        .landerSub {
+            font-size: 20px;
+        }
+        .landerText {
+            padding: 1rem;
+            font-size: 15px;
+            
+        }
+    }
+
+    @media screen and (min-height: 801px),( max-height: 1000px) {
+
+        .landerContainer{
+            justify-content: center;
+        }
+
+    }
+
