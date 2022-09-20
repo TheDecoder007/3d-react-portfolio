@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/3d-react-portfolio/static/css/main.71492daf.css",
-    "main.js": "/3d-react-portfolio/static/js/main.f2c0ff69.js",
+    "main.css": "/3d-react-portfolio/static/css/main.dcfa3f6e.css",
+    "main.js": "/3d-react-portfolio/static/js/main.39554b1d.js",
     "static/js/787.b18ec7bf.chunk.js": "/3d-react-portfolio/static/js/787.b18ec7bf.chunk.js",
     "static/media/DecoderIntroCrop.mp4": "/3d-react-portfolio/static/media/DecoderIntroCrop.c40be623b078cd30c1a5.mp4",
+    "static/media/CloudsGood.jpg": "/3d-react-portfolio/static/media/CloudsGood.7201e47ddadb8d8a3cb9.jpg",
     "static/media/FacePic.png": "/3d-react-portfolio/static/media/FacePic.15c5e33f9b94ae81c25c.png",
     "static/media/photo-port.png": "/3d-react-portfolio/static/media/photo-port.17768690b2e9f95b29c5.png",
     "static/media/entertainme.png": "/3d-react-portfolio/static/media/entertainme.dc3c2a38c420d3e39420.png",
@@ -19,12 +20,12 @@
     "static/media/Weather-app.png": "/3d-react-portfolio/static/media/Weather-app.5c3ffa8afa4e2fe4f5d5.png",
     "static/media/CloudsGoodDark3flip.jpg": "/3d-react-portfolio/static/media/CloudsGoodDark3flip.7b7101bb0aeddcd06b65.jpg",
     "index.html": "/3d-react-portfolio/index.html",
-    "main.71492daf.css.map": "/3d-react-portfolio/static/css/main.71492daf.css.map",
-    "main.f2c0ff69.js.map": "/3d-react-portfolio/static/js/main.f2c0ff69.js.map",
+    "main.dcfa3f6e.css.map": "/3d-react-portfolio/static/css/main.dcfa3f6e.css.map",
+    "main.39554b1d.js.map": "/3d-react-portfolio/static/js/main.39554b1d.js.map",
     "787.b18ec7bf.chunk.js.map": "/3d-react-portfolio/static/js/787.b18ec7bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71492daf.css",
-    "static/js/main.f2c0ff69.js"
+    "static/css/main.dcfa3f6e.css",
+    "static/js/main.39554b1d.js"
   ]
 }
