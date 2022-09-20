@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/3d-react-portfolio/static/css/main.2b70818a.css",
+    "main.js": "/3d-react-portfolio/static/js/main.c5ecd556.js",
+    "static/js/787.b18ec7bf.chunk.js": "/3d-react-portfolio/static/js/787.b18ec7bf.chunk.js",
+    "static/media/DecoderIntroCrop.mp4": "/3d-react-portfolio/static/media/DecoderIntroCrop.c40be623b078cd30c1a5.mp4",
+    "static/media/FacePic.png": "/3d-react-portfolio/static/media/FacePic.15c5e33f9b94ae81c25c.png",
+    "static/media/photo-port.png": "/3d-react-portfolio/static/media/photo-port.17768690b2e9f95b29c5.png",
+    "static/media/entertainme.png": "/3d-react-portfolio/static/media/entertainme.dc3c2a38c420d3e39420.png",
+    "static/media/weTravelToo.png": "/3d-react-portfolio/static/media/weTravelToo.375c04ddfa04854ca922.png",
+    "static/media/LightningHeader.mp4": "/3d-react-portfolio/static/media/LightningHeader.33b643b74af292c706af.mp4",
+    "static/media/MurpheusFace.jpeg": "/3d-react-portfolio/static/media/MurpheusFace.b0ab562a97bd7446ec06.jpeg",
+    "static/media/weTravel.png": "/3d-react-portfolio/static/media/weTravel.2fbc488fb6153fbeb4b6.png",
+    "static/media/Voicebox.png": "/3d-react-portfolio/static/media/Voicebox.d0cdfb08096966a37e1c.png",
+    "static/media/first-portfolio.png": "/3d-react-portfolio/static/media/first-portfolio.507e21bbdc42aff68188.png",
+    "static/media/lastslice-pic.png": "/3d-react-portfolio/static/media/lastslice-pic.5e99cae064e0b975f8e9.png",
+    "static/media/CloudsGoodDark3flip2.jpg": "/3d-react-portfolio/static/media/CloudsGoodDark3flip2.72bb861b4260473ec3e8.jpg",
+    "static/media/quizPic.png": "/3d-react-portfolio/static/media/quizPic.668f508212e84ddfa3c8.png",
+    "static/media/Weather-app.png": "/3d-react-portfolio/static/media/Weather-app.5c3ffa8afa4e2fe4f5d5.png",
+    "static/media/CloudsGoodDark3flip.jpg": "/3d-react-portfolio/static/media/CloudsGoodDark3flip.7b7101bb0aeddcd06b65.jpg",
+    "index.html": "/3d-react-portfolio/index.html",
+    "main.2b70818a.css.map": "/3d-react-portfolio/static/css/main.2b70818a.css.map",
+    "main.c5ecd556.js.map": "/3d-react-portfolio/static/js/main.c5ecd556.js.map",
+    "787.b18ec7bf.chunk.js.map": "/3d-react-portfolio/static/js/787.b18ec7bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b70818a.css",
+    "static/js/main.c5ecd556.js"
+  ]
+}
