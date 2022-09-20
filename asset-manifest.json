@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/3d-react-portfolio/static/css/main.2b70818a.css",
+    "main.css": "/3d-react-portfolio/static/css/main.71492daf.css",
     "main.js": "/3d-react-portfolio/static/js/main.c5ecd556.js",
     "static/js/787.b18ec7bf.chunk.js": "/3d-react-portfolio/static/js/787.b18ec7bf.chunk.js",
     "static/media/DecoderIntroCrop.mp4": "/3d-react-portfolio/static/media/DecoderIntroCrop.c40be623b078cd30c1a5.mp4",
@@ -19,12 +19,12 @@
     "static/media/Weather-app.png": "/3d-react-portfolio/static/media/Weather-app.5c3ffa8afa4e2fe4f5d5.png",
     "static/media/CloudsGoodDark3flip.jpg": "/3d-react-portfolio/static/media/CloudsGoodDark3flip.7b7101bb0aeddcd06b65.jpg",
     "index.html": "/3d-react-portfolio/index.html",
-    "main.2b70818a.css.map": "/3d-react-portfolio/static/css/main.2b70818a.css.map",
+    "main.71492daf.css.map": "/3d-react-portfolio/static/css/main.71492daf.css.map",
     "main.c5ecd556.js.map": "/3d-react-portfolio/static/js/main.c5ecd556.js.map",
     "787.b18ec7bf.chunk.js.map": "/3d-react-portfolio/static/js/787.b18ec7bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b70818a.css",
+    "static/css/main.71492daf.css",
     "static/js/main.c5ecd556.js"
   ]
 }
