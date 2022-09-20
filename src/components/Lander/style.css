@@ -1,0 +1,70 @@
+:root {
+    --primary: rgb(41, 61, 80);
+    --secondary: rgb(16, 39, 61);
+    --tertiary: rgb(155, 0, 0);
+}
+
+.landerContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 999;
+}
+
+.landerTitle {
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 7rem;
+    text-shadow: 0 0 5px red;
+}
+
+.landerSub {
+    padding-top: 2rem;
+    font-size: 40px;
+}
+
+.landerText {
+    align-items: center;
+    padding-top: 4rem;
+    line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+
+.LandBtn {
+    padding: 8px;
+    margin: 15px;
+    background-color: var(--secondary);
+    border: 1px solid var(--primary);
+    color: whitesmoke;
+    box-shadow: 0 0 5px whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+    .Landbtn:hover {
+        background-color: none;
+        color: white;
+        border: 1px solid whitesmoke;
+        box-shadow: 0 0 8px white;
+        /* font-weight: bold; */ 
+    }
+
+    .btn-primary {
+        --bs-btn-hover-bg: none;
+    }
+    .btn-primary:hover {
+        border: 1px solid white;
+        box-shadow: 0 0 10px white;
+
+    }

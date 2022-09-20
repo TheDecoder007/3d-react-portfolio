@@ -9,8 +9,6 @@ import { OrbitControls, GLTFLoader } from "@react-three/drei";
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../src/assets/index.css";
-import "./index.css";
 import Container from "react-bootstrap/Container";
 import Projects from "./components/Projects";
 import About from "./components/About";
@@ -21,6 +19,7 @@ import PageFooter from "./components/Footer";
 import Box from "./components/Box";
 import Background from "./components/Background";
 import { Earth } from "./components/Model";
+import { Lander } from "./components/Lander";
 
 function App() {
   const [activeTab, setActiveTab] = useState("Projects");
@@ -46,6 +45,7 @@ function App() {
 
   return (
     <Container fluid className="mainContainer" >
+      <Lander />
       <Canvas>
         <Suspense fallback={null}>
           <Earth />
@@ -53,11 +53,11 @@ function App() {
       </Canvas>
 
  
-
       {/* <TopNav activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
       {currentPage()}
       <PageFooter/> */}
+
     </Container>
   );
 }
