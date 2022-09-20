@@ -2,7 +2,7 @@
 A personal webpage with links and descriptions of my top projects
 
 ## Built with
-* Landing page built with react-three
+* Landing page built with @react-three/fiber
 * React/useState
 * React-bootstrap
 * Javascript
