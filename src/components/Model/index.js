@@ -1,11 +1,11 @@
 import React, { useRef } from "react";
 import { useLoader, useFrame } from "@react-three/fiber";
 import { TextureLoader } from "three";
-import { OrbitControls, Stars } from "@react-three/drei";
+import { OrbitControls, Stars, useVideoTexture } from "@react-three/drei";
 import * as THREE from "three";
 
-import CloudsDark from "../../assets/photos/CloudsGoodDark3flip2.jpg";
-import CloudsGood from "../../assets/photos/CloudsGoodDark3flip.jpg";
+import CloudsDark from "../../assets/photos/CloudsGoodDark3flip22.jpg";
+import CloudsGood from "../../assets/photos/CloudsGoodDark3flip22.jpg";
 
 export function Earth(props) {
   const [colorMap, cloudsMap] = useLoader(TextureLoader, [
@@ -15,6 +15,7 @@ export function Earth(props) {
 
   const earthRef = useRef();
   const cloudsRef = useRef();
+//   const texture = useVideoTexture("../../assets/videos/DecoderIntro.mp4")
 
   useFrame(({ clock }) => {
     const elapsedTime = clock.getElapsedTime();
@@ -38,17 +39,18 @@ export function Earth(props) {
         <sphereGeometry args={[1.005, 32, 32]} />
         <meshPhongMaterial
           map={cloudsMap}
-          opacity={0.4}
+          opacity={0.5}
           roughness={0.5}
           depthWrite={false}
           transparent={true}
           side={THREE.DoubleSide}
         />
+
       </mesh>
       <mesh ref={cloudsRef} scale={[2, 2, 2]}>
         <sphereGeometry args={[1, 32, 32]} />
         <meshStandardMaterial map={colorMap} metalness={0.7} roughness={0.5} />
-        {/* <OrbitControls enableScroll={true} /> */}
+        {/* <OrbitControls enableZoom={true} /> */}
         {/* <OrbitControls
           enableZoom={true}
           enablePan={true}

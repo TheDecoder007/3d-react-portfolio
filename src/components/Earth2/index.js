@@ -4,13 +4,13 @@ import { TextureLoader } from "three";
 import { OrbitControls, Stars } from "@react-three/drei";
 import * as THREE from "three";
 
-import CloudsDark from "../../assets/photos/CloudsGood.jpg";
-import CloudsGood from "../../assets/photos/MurpheusFace.jpeg";
+import TheFace from "../../assets/photos/MurpheusFace.jpg";
+import CloudsGood from "../../assets/photos/CloudsGood.jpg";
 
 export function Earth2(props) {
   const [colorMap, cloudsMap] = useLoader(TextureLoader, [
     CloudsGood,
-    CloudsDark,
+    TheFace,
   ]);
 
   const earthRef = useRef();
@@ -24,8 +24,8 @@ export function Earth2(props) {
 
   return (
     <>
-      <ambientLight intensity={0.9} />
-      <pointLight color="#f6f3ea" position={[2, 0, 5]} intensity={1.5} />
+      <ambientLight intensity={2} />
+      <pointLight color="#f6f3ea" position={[4, 0, 5]} intensity={1.5} />
       <Stars
         radius={300}
         depth={60}
@@ -34,21 +34,22 @@ export function Earth2(props) {
         saturation={0}
         fade={true}
       />
-      <mesh ref={earthRef} scale={[2, 2, 2]}>
+      <mesh ref={cloudsRef} scale={[2, 2, 2]}>
         <sphereGeometry args={[1.005, 32, 32]} />
         <meshPhongMaterial
-          map={cloudsMap}
+          map={colorMap}
           opacity={0.4}
           roughness={0.5}
           depthWrite={false}
           transparent={true}
           side={THREE.DoubleSide}
         />
+
       </mesh>
-      <mesh ref={cloudsRef} scale={[2, 2, 2]} position={[0,-10, -3]}>
+      <mesh ref={earthRef} scale={[2, 2, 2]}>
         <sphereGeometry args={[1, 32, 32]} />
-        <meshStandardMaterial map={colorMap} metalness={0.7} roughness={0.5} />
-        {/* <OrbitControls enableScroll={true} /> */}
+        <meshStandardMaterial map={cloudsMap} metalness={0.7} roughness={0.5} />
+        {/* <OrbitControls enableZoom={true} /> */}
         {/* <OrbitControls
           enableZoom={true}
           enablePan={true}

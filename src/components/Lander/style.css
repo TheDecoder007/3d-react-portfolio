@@ -22,12 +22,14 @@
     font-size: 70px;
     font-weight: 700;
     padding-top: 7rem;
-    text-shadow: 0 0 5px red;
+    text-shadow: 0 0 5px rgb(168, 4, 4);
 }
 
 .landerSub {
     padding-top: 2rem;
     font-size: 40px;
+    text-shadow: 0 0 5px rgb(5, 3, 14);
+
 }
 
 .landerText {
@@ -39,6 +41,8 @@
     padding-right: 15%;
     padding-bottom: 4rem;
     text-align: center;
+    text-shadow: 0 0 5px rgb(5, 3, 14);
+
 }
 
 
