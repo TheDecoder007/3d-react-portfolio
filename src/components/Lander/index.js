@@ -31,7 +31,7 @@ export function Lander() {
             projects include Metaverse builds for Samsung, SandStorm.co, Wall
             Street Bets, and many other clients. Experience with full MERN
             stack, RESTfull apps, API's, React-Threes, and more! Click the
-            button to go to my onliine portfolio, built with React.{" "}
+            button to go to my online portfolio, built with React.{" "}
           </h3>
         </Col>
       </Row>
